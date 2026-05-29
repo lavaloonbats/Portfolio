@@ -1,0 +1,19 @@
+.page {
+  display: none;
+  height: 100vh;
+}
+
+.page.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+
+  .page {
+    padding: 20px;
+    text-align: center;
+  }
+
+}
